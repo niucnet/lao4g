@@ -1,16 +1,65 @@
-.box2 {
+
+.colorful-card {
+  padding: 10px 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all 0.3s ease;
+  padding: 20px 10px;
+}
+ 
+
+.colorful-card:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
+    color: #fff;
+  }
+.colorful-card:visited {
+	color: #FFFFFF;
+	text-decoration: none; 
+} 
+ .colorful-card  i { 
+    font-size: 18px;
+    margin-top: -2px;
+    padding-right: 5px;
+ }
+ 
+.zmki_top_one{
+	background: #608cee;
+}
+.zmki_top_two{
+	background: #fb5962;
+}
+.zmki_top_three{
+	background: #fbb359;
+}
+.zmki_top_four{
+	background: #53bf6b;
+}
+
+.zmki_admin_img{
+	 border: 0;
+    height: 20px; 
+    margin-bottom: -2px;
+}
+.box2 { 
     height: 86px;
     cursor: pointer;
-    border-radius: 4px;
     padding: 0px 30px 0px 30px;
     background-color: #fff;
-    border-radius: 4px;
-    border: 1px solid #e4ecf3;
+    border-radius: 8px; 
     margin: 20px 0 0 0;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    -moz-box-shadow: 2px 2px 5px #333333;
+    -webkit-box-shadow: 2px 2px 5px #333333;
+    box-shadow: 2px 2px 5px #3333330d;
+    border: 1px solid #fff;
 }
 
 .box2:hover {

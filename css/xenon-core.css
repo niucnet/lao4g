@@ -17,6 +17,30 @@ background: #fff;
 	src: url(//at.alicdn.com/t/font_235844_8ad82lt5grp.eot?#iefix) format('embedded-opentype'), url(//at.alicdn.com/t/font_235844_8ad82lt5grp.woff2) format('woff2'), url(//at.alicdn.com/t/font_235844_8ad82lt5grp.woff) format('woff'), url(//at.alicdn.com/t/font_235844_8ad82lt5grp.ttf) format('truetype'), url(//at.alicdn.com/t/font_235844_8ad82lt5grp.svg#iconfont) format('svg')
 }
 
+@media screen and (max-width: 1221px) { .wapnone{display:none; }
+}
+
+.zmki_top_main{
+	margin-top: 20px;
+}
+img { 
+    max-width: 100%;
+}
+
+/*手机端适配  常规尺寸*/
+@media (max-width:768px) { 
+	.page-container .main-content { 
+     margin-top: -20px!important;
+     margin-bottom: 30px!important;
+	}
+	.zmki_top_main{
+	margin-top: 0px!important;
+}
+}
+li{
+	list-style: none;
+}
+
 .iconfont {
 	font-family: "iconfont" !important;
 	font-size: 16px;
@@ -211,6 +235,13 @@ body.night .fk_service_box {
 body.night .xe-comment-entry img {
     filter: brightness(95%);
 }
+body.night .zmki_top_one,
+body.night .zmki_top_two,
+body.night .zmki_top_three, 
+body.night .zmki_top_four{
+filter: brightness(80%);
+}
+
 /*body.night .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {*/
 /*    color: #333;*/
 /*    background-color: #000000;*/
@@ -240,8 +271,7 @@ body.night .xe-comment-entry img {
 	font-size: 14px;
 	color: #243558;
 	z-index: 10000
-}
-
+} 
 
 .fk_service ul {
 	margin: 0;
